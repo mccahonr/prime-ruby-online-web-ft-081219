@@ -6,8 +6,7 @@ def prime?(integer)
     false
   elsif integer <= 3
     true
-  else (2..n/2).none?
-    do |i|
+  else (2..integer/2).none? do |i|
     integer % i == 0
     end
   end
