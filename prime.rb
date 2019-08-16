@@ -7,6 +7,6 @@ def prime?(integer)
   elsif integer <= 3
     true
   else (2..n/2).none? do |i|
-    integer % i == 0    
-  end  
+    integer % i == 0
+  end
 end
